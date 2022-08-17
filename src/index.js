@@ -1,13 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { TeamColorList } from './TeamColorList';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import TeamColorList from "./TeamColorList";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <TeamColorList />
   </React.StrictMode>
 );
-
-
